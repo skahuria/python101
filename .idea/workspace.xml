@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44657412-5686-499e-84d6-da4da0c7b478" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreadExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadExample2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadExample3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multithreadExample.py">
+        <entry file="file://$PROJECT_DIR$/scripting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -89,12 +83,13 @@
         <option value="$PROJECT_DIR$/threadExample2.py" />
         <option value="$PROJECT_DIR$/threadExample3.py" />
         <option value="$PROJECT_DIR$/multithreadExample.py" />
+        <option value="$PROJECT_DIR$/scripting.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="386" />
+    <option name="y" value="408" />
     <option name="width" value="964" />
     <option name="height" value="571" />
   </component>
@@ -136,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multithreadExample">
+  <component name="RunManager" selected="Python.scripting">
     <configuration name="multithreadExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oop_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scripting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scripting" />
         <item itemvalue="Python.multithreadExample" />
         <item itemvalue="Python.threadExample3" />
         <item itemvalue="Python.threadExample2" />
         <item itemvalue="Python.threadExample" />
-        <item itemvalue="Python.oop_example" />
       </list>
     </recent_temporary>
   </component>
@@ -277,19 +272,26 @@
       <option name="project" value="LOCAL" />
       <updated>1622475315632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Multithreading example">
+      <created>1622478112256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622478112256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="386" y="408" width="964" height="571" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24190065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42716858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5958904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +308,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New OOP Example" />
     <MESSAGE value="OOP Example added objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP Example added objects" />
+    <MESSAGE value="Multithreading example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multithreading example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,11 +665,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multithreadExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
